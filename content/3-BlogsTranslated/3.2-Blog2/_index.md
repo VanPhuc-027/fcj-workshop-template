@@ -1,126 +1,70 @@
 ---
-title: "Blog 2"
-date: 2024-01-01
+title: "AI-Powered Test Automation: A Breakthrough From Amazon Bedrock And Rapise"
+date: 2026-06-29
 weight: 1
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# Getting Started with Healthcare Data Lakes: Using Microservices
+# AI-Powered Test Automation: A Breakthrough From Amazon Bedrock And Rapise
 
-Data lakes can help hospitals and healthcare facilities turn data into business insights, maintain business continuity, and protect patient privacy. A **data lake** is a centralized, managed, and secure repository to store all your data, both in its raw and processed forms for analysis. Data lakes allow you to break down data silos and combine different types of analytics to gain insights and make better business decisions.
+If you are running large-scale software projects, Automation Testing is undoubtedly a major pain point. The application User Interface (UI) changes constantly, and selectors/IDs shift after every single update... Consequently, QA engineers spend hours just "fixing test code" (script maintenance) instead of writing new test cases.
 
-This blog post is part of a larger series on getting started with setting up a healthcare data lake. In my final post of the series, *“Getting Started with Healthcare Data Lakes: Diving into Amazon Cognito”*, I focused on the specifics of using Amazon Cognito and Attribute Based Access Control (ABAC) to authenticate and authorize users in the healthcare data lake solution. In this blog, I detail how the solution evolved at a foundational level, including the design decisions I made and the additional features used. You can access the code samples for the solution in this Git repo for reference.
+To fundamentally solve this problem, AWS has delivered a strategic answer: Integrating the AI power of **Amazon Bedrock** into the automated testing tool **Rapise** (from their partner Inflectra).
 
----
-
-## Architecture Guidance
-
-The main change since the last presentation of the overall architecture is the decomposition of a single service into a set of smaller services to improve maintainability and flexibility. Integrating a large volume of diverse healthcare data often requires specialized connectors for each format; by keeping them encapsulated separately as microservices, we can add, remove, and modify each connector without affecting the others. The microservices are loosely coupled via publish/subscribe messaging centered in what I call the “pub/sub hub.”
-
-This solution represents what I would consider another reasonable sprint iteration from my last post. The scope is still limited to the ingestion and basic parsing of **HL7v2 messages** formatted in **Encoding Rules 7 (ER7)** through a REST interface.
-
-**The solution architecture is now as follows:**
-
-> *Figure 1. Overall architecture; colored boxes represent distinct services.*
+Does this combination truly liberate labor for QA teams? Let's dissect an objective perspective on this solution.
 
 ---
 
-While the term *microservices* has some inherent ambiguity, certain traits are common:  
-- Small, autonomous, loosely coupled  
-- Reusable, communicating through well-defined interfaces  
-- Specialized to do one thing well  
-- Often implemented in an **event-driven architecture**
+## The Gaps of Traditional Automation Testing
 
-When determining where to draw boundaries between microservices, consider:  
-- **Intrinsic**: technology used, performance, reliability, scalability  
-- **Extrinsic**: dependent functionality, rate of change, reusability  
-- **Human**: team ownership, managing *cognitive load*
+Most traditional testing frameworks operate rigidly: locating elements on a webpage based on fixed IDs or XPath paths. A minor tweak to the interface layout by the Frontend team can result in:
 
----
+* **Broken Scripts** immediately.
+* **False Positives** reported by the system, disrupting CI/CD results.
+* **Skyrocketing script maintenance costs**, slowing down product release velocity.
 
-## Technology Choices and Communication Scope
-
-| Communication scope                       | Technologies / patterns to consider                                                        |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Within a single microservice              | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Between microservices in a single service | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Between services                          | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+Enterprises don't just need a script recorder; they need a testing system capable of **self-awareness** and **adaptation**.
 
 ---
 
-## The Pub/Sub Hub
+## How the "AI Brain + Testing Tool" Duo Works
 
-Using a **hub-and-spoke** architecture (or message broker) works well with a small number of tightly related microservices.  
-- Each microservice depends only on the *hub*  
-- Inter-microservice connections are limited to the contents of the published message  
-- Reduces the number of synchronous calls since pub/sub is a one-way asynchronous *push*
+This integrated solution leverages Large Language Models (LLMs) via Amazon Bedrock to serve as the analytical "brain" for the Rapise testing tool. The workflow consists of 3 closed steps:
 
-Drawback: **coordination and monitoring** are needed to avoid microservices processing the wrong message.
-
----
-
-## Core Microservice
-
-Provides foundational data and communication layer, including:  
-- **Amazon S3** bucket for data  
-- **Amazon DynamoDB** for data catalog  
-- **AWS Lambda** to write messages into the data lake and catalog  
-- **Amazon SNS** topic as the *hub*  
-- **Amazon S3** bucket for artifacts such as Lambda code
-
-> Only allow indirect write access to the data lake through a Lambda function → ensures consistency.
+1. **UI Contextual Awareness:** Instead of merely looking at dry lines of HTML code, Amazon Bedrock helps Rapise "see" and understand the UI just like a human (knowing what is a button or an input field based on context).
+2. **Self-Healing Scripts:** When an application updates and alters the UI structure, the AI automatically analyzes and finds the most suitable replacement element to keep running the test without requiring manual code fixes from engineers.
+3. **AI-Driven Generation:** Simply describe the test case in natural language, and the AI combined with Rapise will automatically propose and build the corresponding test steps.
+    > **Example:** "Verify the feature of adding a product to the cart" -> The system automatically analyzes the flow and generates the script.
 
 ---
 
-## Front Door Microservice
+## 5-Step Implementation Roadmap (Theory vs. Reality)
 
-- Provides an API Gateway for external REST interaction  
-- Authentication & authorization based on **OIDC** via **Amazon Cognito**  
-- Self-managed *deduplication* mechanism using DynamoDB instead of SNS FIFO because:  
-  1. SNS deduplication TTL is only 5 minutes  
-  2. SNS FIFO requires SQS FIFO  
-  3. Ability to proactively notify the sender that the message is a duplicate  
+To put this Enterprise solution into operation, organizations typically follow a standardized roadmap:
+
+### Step 1: Monitor (System Monitoring)
+Re-evaluate all current test scenarios and identify UI areas that undergo frequent changes to prepare for AI application.
+
+### Step 2: Detect (Infrastructure Connection)
+Establish API access permissions linking the Rapise tool with the Amazon Bedrock service within a secure AWS Cloud environment.
+
+### Step 3: Investigate (Context Training)
+Allow the AI to scan through the application to create a baseline (standard template) of UI elements, helping the system deeply understand the app's user flows.
+
+### Step 4: Remediate (Activate Self-Healing)
+Turn on the *Self-Healing* feature. During test execution within the CI/CD pipeline, if a UI change causes a failure, the AI will automatically "patch" the script in real-time and feed reports back to the system.
+
+### Step 5: Guard (Continuous Governance)
+Maintain optimization of token usage costs for Amazon Bedrock and continuously update test scenarios in alignment with new product features.
 
 ---
 
-## Staging ER7 Microservice
+## Conclusion: An Objective Perspective
 
-- Lambda “trigger” subscribed to the pub/sub hub, filtering messages by attribute  
-- Step Functions Express Workflow to convert ER7 → JSON  
-- Two Lambdas:  
-  1. Fix ER7 formatting (newline, carriage return)  
-  2. Parsing logic  
-- Result or error is pushed back into the pub/sub hub  
+The combination of Amazon Bedrock and Rapise is a giant leap forward for the Enterprise segment—where data source security and system stability are top priorities.
+
+However, since this is a closed-ecosystem solution (leveraging Rapise's commercial paid model and AWS's cloud infrastructure), it is best suited for large organizations with an existing AWS footprint, rather than small startups prioritizing open-source tools. Nonetheless, the era of **"AI-powered Test Automation"** has truly begun and will soon completely reshape how we conduct software QA.
 
 ---
-
-## New Features in the Solution
-
-### 1. AWS CloudFormation Cross-Stack References
-Example *outputs* in the core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+*For technical configuration details and setup steps, you can refer back to the original article on the AWS APN Blog:* 🔗 [AI-Powered Test Automation with Rapise and Amazon Bedrock](https://aws.amazon.com/blogs/apn/ai-powered-test-automation-with-rapise-and-amazon-bedrock/)

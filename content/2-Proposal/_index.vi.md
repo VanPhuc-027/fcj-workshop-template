@@ -37,8 +37,7 @@ Một hàm AWS Lambda hậu kỳ (Post-processing) đọc log thô, lọc bớt 
 ### 3. Kiến trúc giải pháp  
 Hệ thống được chia thành Backend Engine (lên lịch, thực thi và tạo báo cáo kiểm thử) và Dashboard Console (giao diện dành cho 3 vai trò Admin, QA/Tester, Developer). Mọi yêu cầu đều đi qua đúng một luồng xử lý duy nhất không có đường tắt nào bỏ qua chuỗi SQS -> Lambda Coordinator -> Fargate, dù kích hoạt theo lịch hay thủ công.  
 
-![Cloud-Native E2E Testing Platform Architecture](/images/2-Proposal/architecture.jpeg)
-
+![Sơ đồ kiến trúc hệ thống](/images/2-Proposal/architecture.png)
 
 *Dịch vụ AWS sử dụng*  
 - *Amazon EventBridge*:Lập lịch và phát sinh sự kiện kiểm thử định kỳ (biểu thức cron).

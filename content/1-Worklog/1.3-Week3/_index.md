@@ -1,57 +1,34 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-04
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete Module 03, thoroughly grasp the theoretical concepts of Amazon Elastic Compute Cloud (EC2), Lightsail, EFS/FSx, and AWS Application Migration Service (MGN), and perform hands-on labs related to creating S3 buckets, CloudFront, loading data, etc.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to Implement This Week:
 
+| Day | Task | Start Date | Completion Date | Resource Links |
+| --- | --- | --- | --- | --- |
+| Mon | - **Study Module 03 theory - Exploring EC2 components**:<br>  * Instance types.<br>  * AMI / Backup / Key Pairs.<br>  * Elastic Block Store (EBS) and Instance Store. | 2026/05/04 | 2026/05/04 | <https://www.youtube.com/watch?v=e7XeKdOVq40> |
+| Tue | - **Continue Module 03 theory - Exploring**:<br>  * User data, Metadata, and EC2 Auto Scaling.<br>  * EFS/FSx, Lightsail, and AWS MGN. | 2026/05/05 | 2026/05/05 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - **Hands-on Lab 13:** Create a backup plan for active resources on AWS such as EBS Volumes, RDS Databases, DynamoDB Tables, or EFS File Systems.<br>  * Learn how to utilize the AWS CLI. | 2026/05/06 | 2026/05/06 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | - **Hands-on Lab 24:**<br>  * Create an S3 bucket and launch an EC2 Instance using a pre-configured AWS Storage Gateway AMI.<br>  * Utilize AWS Storage Gateway: create a Storage Gateway, create a File Share, and map the network drive. | 2026/05/07 | 2026/05/07 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | - **Hands-on Lab 57:** Create an S3 bucket and upload data to prepare for static website hosting. | 2026/05/07 | 2026/05/07 | <https://cloudjourney.awsstudygroup.com/> |
+| Sat | - Review Module 03 theoretical concepts and re-watch lab tutorial videos. | 2026/05/08 | 2026/05/08 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Mastered the core foundational knowledge of Module 03, fully understanding the operational mechanisms, architecture, and classification of components within the AWS compute and storage ecosystem.
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully differentiated between various EC2 Instance types (General Purpose, Compute Optimized, Memory Optimized, etc.) to optimize costs and performance for specific real-world use cases.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Gained a deep understanding of managing the EC2 lifecycle through AMIs (Amazon Machine Images), securing instances with Key Pairs, and clearly distinguishing use cases between persistent EBS (Elastic Block Store) volumes and high-speed, temporary Instance Stores.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Mastered advanced EC2 concepts including automated initialization scripts using User Data, system information retrieval via Metadata, and the automated elasticity mechanism provided by EC2 Auto Scaling based on workload demands.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Acquired a comprehensive overview and differentiated other storage solutions and services, such as shared file systems (EFS/FSx), simplified virtual private servers (Amazon Lightsail), and cloud migration workflows using AWS Application Migration Service (MGN).

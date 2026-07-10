@@ -1,57 +1,34 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Continue executing the remaining practical labs in Module 07, research materials for technical blog writing, and identify a suitable topic for the upcoming workshop.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to Implement This Week:
 
+| Day | Task | Start Date | Completion Date | Resource Links |
+| --- | --- | --- | --- | --- |
+| Mon | - Review theoretical concepts of Module 05.<br>- Read tech blogs and conduct research to find a potential topic for the workshop. | 2026/06/08 | 2026/06/08 | |
+| Tue | - **Hands-on Lab 70:** Implement an ETL pipeline to clean raw data, load it into data storage, and conduct analytical querying. Utilize AWS Glue DataBrew as a visual data preparation tool and Amazon Athena to query the processed datasets. | 2026/06/09 | 2026/06/09 | <https://000070.awsstudygroup.com/> |
+| Wed | - **Hands-on Lab 72:** Get familiar with various analytical services within the AWS Analytics portfolio. Configure Amazon Kinesis Data Generator to generate mock data, stream it into Amazon Kinesis Data Firehose, and register the datasets into the AWS Glue Data Catalog. Transform and analyze the data using AWS Glue. | 2026/06/10 | 2026/06/10 | <https://000072.awsstudygroup.com/> |
+| Thu | - Continue working on the remaining parts of Lab 72.<br>- Learn more about and research the newly discovered tech blog. | 2026/06/11 | 2026/06/11 | |
+| Fri | - **Hands-on Lab 73:** Build a business intelligence dashboard to visualize data; perform data analysis and presentation using Amazon QuickSight. | 2026/06/12 | 2026/06/12 | <https://000073.awsstudygroup.com/> |
+| Sat | - Review theoretical training videos and re-watch select practical lab tutorial videos to consolidate knowledge. | 2026/06/13 | 2026/06/13 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Mastered the complete End-to-End Data Pipeline architecture on AWS cloud, encompassing all critical phases: Real-time Ingestion -> Transformation/ETL -> Storage/Cataloging -> Querying -> Business Intelligence Visualization.
 
-* Successfully created and configured an AWS Free Tier account.
+* Absorbed modern data engineering mindsets utilizing No-code Data Preparation tools, understanding how to clean and shape raw data prior to storage to enhance analytics accuracy.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Mastered mechanisms for large-scale, continuous real-time streaming data ingestion and orchestration, clearly distinguishing the distinct roles within the AWS dynamic data ecosystem.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Gained practical experience with AWS Glue DataBrew to construct visual ETL workflows that clean and normalize raw data rapidly without writing code.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully configured Amazon Kinesis Data Generator to simulate continuous streaming data and successfully funneled it into Amazon Kinesis Data Firehose.

@@ -1,59 +1,38 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
+date: 2026-06-02
 weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thành các lab của module07, ôn tập lại các lý thuyết modlue cũ.
+* Đọc blog tham khảo để kiếm ý tưởng cho việc đăng blog cũng như tên đề tài.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| 2   | - **Thực hành lab35:** Data Lake, tạo data catalog.    | 01/06/2026   | 01/06/2026      | <https://000035.awsstudygroup.com/> |
+| 3   | - Ôn lại lý thuyết của module01 và modlue02, đọc các blog kiếm đề tài để dăng vào group facebook.     | 02/06/2026   | 02/06/2026      | <https://000035.awsstudygroup.com/> |
+| 4   | - Xem video thực hành lab39 về cách tạo bảng, nạp dữ liệu mẫu, thực hiện các thao tác CRUD, sử dụng các tính năng truy vấn bằng dòng lệnh (CLI) và giao diện điều khiển (Console).Thiết kế nâng cao & Lập mô hình NoSQL (LADV & LGME).Xử lý sự kiện và Thu thập dữ liệu thay đổi (LCDC & LEDA) | 03/06/2026   | 03/06/2026      | <https://www.youtube.com/watch?v=w5bqLYPv6DA> |
+| 5   | - **Thực hành lab40:** tìm hiểu và AWS Glue, dịch vụ phân tích chi phí và hiệu năng sử dụng.Giúp dễ dàng khởi tạo, chạy và theo dõi quy trình ETL với AWS Glue Studio.  | 04/06/2026   | 04/06/2026     | <https://000040.awsstudygroup.com/> |
+| 6   | - **Thực hành lab60:** sử dụng Dynamodb, tạo các table cơ sở dữ liệu trên aws.    | 05/06/2026   | 05/06/2026      | <https://000060.awsstudygroup.com/> |
+| 7   | - Tham gia event vào buổi sáng mặc dù do nhầm lịch nhưng may mắn được anh chị cho vào dự(sẽ không tính 1 buổi event).Xem lại các video thực hành vào buổi chiều.    | 06/06/2026   | 06/06/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 
 ### Kết quả đạt được tuần 7:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Tiếp thu được các khái niệm nâng cao của Module 07 tập trung vào kiến trúc dữ liệu lớn (Data Lake), cơ chế quản lý siêu dữ liệu (Metadata) và trường phái cơ sở dữ liệu phi quan hệ (NoSQL).
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Hiểu rõ cách thức xây dựng một hồ dữ liệu trung tâm nhằm phá vỡ các rào cản silo dữ liệu, kết hợp với việc xây dựng cấu trúc Data Catalog để quản lý thông tin dữ liệu một cách tập trung và nhất quán.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Định hình được quy trình xử lý dữ liệu tự động ETL (Extract, Transform, Load) toàn diện với công cụ AWS Glue nhằm tối ưu hiệu năng và phân tích chi phí vận hành.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Triển khai thành công mô hình Data Lake cơ bản, thực hiện cấu hình và khởi tạo hệ thống Data Catalog tập trung nhằm định nghĩa chính xác cấu trúc dữ liệu cho các dịch vụ phân tích phía sau.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Làm quen với dịch vụ AWS Glue, ứng dụng thành công giao diện trực quan AWS Glue Studio.
 
 

@@ -1,59 +1,35 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
+date: 2026-05-18
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nắm vững lý thuyết module05 về Amazon Identity and access management, Amazon Cognito,…
+* Thực hành quen tay các bài lab trong module05.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| 2   | - Học lý thuyết module05 về dịch vụ bảo mật trên AWS, chủ đề cực kỳ quan trọng được AWS đặt lên hàng đầu với triết lý "Security is Zero" về tổng quan các dịch vụ bảo mật chính của AWS.Học các kiến thức về Cognito, Organization, Identity Center. | 18/05/2026   | 18/05/2026       | <https://www.youtube.com/watch?v=tsobAlSg19g> <br> <https://www.youtube.com/watch?v=N_vlJGAqZxo> <br> <https://www.youtube.com/watch?v=pZ2fgEFK3Vs> ... |
+| 3   | - **Thực hành lab18:**kích hoạt Security Hub, kiểm tra đánh giá theo từng bộ tiêu chuẩn.                              | 19/05/2026   | 19/05/2026      | <https://000018.awsstudygroup.com/> |
+| 4   | - **Thực hành lab22:** sử dụng Lambda function để tối ưu hóa chi phí cho hệ thống trên môi trường AWS.Cách tạo role, tag và lambda Funcion. | 20/05/2026   | 20/05/2026      | <https://000022.awsstudygroup.com/> |
+| 5   | - **Xem video thực hành lab28** quản lý quyền truy cập dịch vụ EC2 với Resource Tag thông qua cấu hình chi tiết của các chính sách và IAM role với quyền cụ thể.Tạo các chính sách với các role có thể được sử dụng bởi một số người dùng nhất định, chẳng hạn như Quản trị viên EC2. Các chính sách (policy) này sẽ chỉ cho phép Quản trị viên EC2 tạo các tài nguyên liên quan khi nó đáp ứng các yêu cầu đã nêu và dựa trên một số Resource Tag nhất định.| 21/05/2026   | 20/05/2026      | <https://www.youtube.com/watch?v=5rOiXP7rq9w> |
+| 6   | - **Thực hành lab30:**giới hạn quyền tối đa với một User hoặc Group. <br> - **Thực hành lab33:** tạo policy, role, group và user, tạo Key Managêmnt Service.        | 21/05/2026   | 21/05/2026      | <https://000033.awsstudygroup.com/> <br> <https://000030.awsstudygroup.com/> |
+| 7   | - Xem lại các video thực hành bài lab.        | 22/05/2026   | 22/05/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>  |
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu được triết lý "Security is Job Zero" (Bảo mật là ưu tiên hàng đầu) của AWS, từ đó định hình tư duy thiết kế hệ thống luôn đi kèm với các tiêu chuẩn an toàn thông tin nghiêm ngặt.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Nắm vững kiến thức nền tảng của Module 05 về quản lý danh tính và quyền truy cập trên đám mây. Hiểu rõ cơ chế hoạt động của Amazon Cognito (bao gồm User Pools và Identity Pools) trong việc xác thực và phân quyền cho người dùng ứng dụng.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Tiếp thu phương thức quản lý tập trung đa tài khoản thông qua AWS Organizations, biết cách áp dụng các Service Control Policies (SCPs) để kiểm soát quyền lực tối đa, đồng thời hiểu cách triển khai cơ chế đăng nhập một lần bằng AWS IAM Identity Center (quy đổi từ AWS SSO) nhằm tối ưu hóa trải nghiệm quản trị hệ sinh thái doanh nghiệp.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Làm quen với việc tự động kiểm tra, đánh giá an toàn bảo mật hệ thống theo các bộ tiêu chuẩn quốc tế (như CIS AWS Foundations Benchmark, AWS Foundational Security Best Practices). Biết cách đọc và phân tích các bảng dashboard để phát hiện lỗ hổng hạ tầng kịp thời.
 
 

@@ -1,57 +1,35 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Thoroughly master Module 06 theoretical concepts regarding AWS databases and successfully complete all associated hands-on labs.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to Implement This Week:
 
+| Day | Task | Start Date | Completion Date | Resource Links |
+| --- | --- | --- | --- | --- |
+| Mon | - **Hands-on Lab 48 (Module 05):** Set up the workshop environment, including provisioning an EC2 instance and creating an S3 bucket. Master configuring and utilizing AWS Access Keys safely. | 2026/05/25 | 2026/05/25 | <https://000048.awsstudygroup.com/> |
+| Tue | - Study Module 06 database theories: Review database concepts, explore the Shared Responsibility Model for managed database services, and learn about Amazon RDS, Amazon Aurora, Amazon Redshift, and Amazon ElastiCache. | 2026/05/26 | 2026/05/26 | <https://www.youtube.com/watch?v=OOD2RwWuLRw><br><https://www.youtube.com/watch?v=qbrobQZrokY><br><https://www.youtube.com/watch?v=UvdiRW34aNI> |
+| Wed | - **Hands-on Lab 05:** Deploy and manage relational databases on AWS. Utilize Amazon RDS to design for Online Transaction Processing (OLTP) workloads, ideal for structured and relational data requirements. | 2026/05/27 | 2026/05/27 | <https://000005.awsstudygroup.com/> |
+| Thu | - **Hands-on Lab 43:** Perform database schema conversion, monitor database migration tasks, and troubleshoot issues using AWS Database Migration Service (DMS). | 2026/05/28 | 2026/05/28 | <https://000043.awsstudygroup.com/> |
+| Fri | - Review theoretical concepts learned during the week and preview Lab 35 from Module 07. | 2026/05/29 | 2026/05/29 | <https://cloudjourney.awsstudygroup.com/> |
+| Sat | - Attend the morning event. Review Module 06 theoretical videos to consolidate knowledge. | 2026/05/30 | 2026/05/30 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Deeply understood the Shared Responsibility Model applied specifically to Managed Databases, distinguishing tasks automated by AWS (e.g., OS patching, infrastructure backups) from tasks managed by the user (e.g., schema design, query optimization).
 
-* Successfully created and configured an AWS Free Tier account.
+* Mastered the operational principles, use-case scenarios, and trade-offs of core AWS data storage and analytics solutions:
+  * **Amazon RDS & Amazon Aurora:** Relational database solutions optimized for Online Transaction Processing (OLTP) workloads, supporting High Availability (Multi-AZ) and Read Replicas.
+  * **Amazon Redshift:** A powerful Data Warehouse solution tailored for large-scale analytical processing (OLAP).
+  * **Amazon ElastiCache:** An in-memory caching service leveraging Redis/Memcached to accelerate response times and minimize primary database load.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully provisioned a baseline workshop infrastructure environment consisting of an Amazon EC2 instance and an Amazon S3 storage system.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully performed schema conversions, set up, and closely monitored data replication progress using AWS Database Migration Service (DMS).

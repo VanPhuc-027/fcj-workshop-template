@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
+date: 2026-05-11
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nắm rõ lý thuyết module 4 về simple storage, Access Point - Storage Class, Static Website & CORS - Control Access - Object Key & Performance - Glacier.
+* Hoàn thành các lab thực hành về tính năng static website, bucket versioning, …
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - **Học lý thuyết module04** về đặc điểm lưu trữ của Amazon S3, tính chất và khả năng mở rộng của Amazon S3, các cơ chế và tính năng sử dụng <br> -     | 11/05/2026   | 11/05/2026      | <https://www.youtube.com/watch?v=mPBjB6Ltl_Q> |
+| 3   | - **Học tiếp lý thuyết modlue04** tính năng hosting web tĩnh trên Amazon S3, CORS, Cotrol access, Object key, Snow Family, Storage Gateway.  | 12/05/2026   | 12/05/2026      | <https://www.youtube.com/watch?v=mPBjB6Ltl_Q> <br> <https://www.youtube.com/watch?v=YXn8Q_Hpsu4> |
+| 4   | - Xem video thực hành lab14 về VMWare Workstation, cách khởi tạo một instance trên môi trường ảo hóa on-premises với hệ điều hành Ubuntu Desktop và triển khai instance trên môi trường ảo hóa VMware Workstation trên cơ sở hạ tầng on-premises.
+ | 13/05/2026   | 13/05/2026      | <https://www.youtube.com/watch?v=Yr6oD4btfZg> |
+| 5   | -**Thực hành lab24:** Triển khai File Storage Gateway để thiết lập một File Sharing kết nối với các máy ở On-premise.Cách tạo Storage Gateway, File Shares, kết nối File shares ở máy On-premise | 14/05/2026   | 14/05/2026      | <https://000024.awsstudygroup.com/> |
+| 6   | - **Thực hành lab 25:** thiết lập hệ thống lưu trữ dữ liệu chung cho hạ tầng Windows, cách kiểm tra hiệu năng, giám sát hiệu năng STG326 - SAZ.          | 15/05/2026   | 15/05/2026      | <https://000025.awsstudygroup.com/> |
+| 7   | - Ôn lại các video lý thuyết module04, resarch tài liệu, xem qua các blog về architecture diagram.          | 16/05/2026   | 16/05/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> <br> <https://aws.amazon.com/vi/blogs/architecture/> |
 
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Nắm vững kiến thức cốt lõi về Amazon S3: đặc điểm lưu trữ, tính chất, khả năng mở rộng vô hạn và các cơ chế quản lý dữ liệu hiệu quả.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Hiểu rõ cách cấu hình Hosting Web tĩnh (Static Website) trên S3 kết hợp với cấu hình CORS (Cross-Origin Resource Sharing) để chia sẻ tài nguyên an toàn.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Làm chủ các phương thức kiểm soát truy cập (Control Access), hiểu về cấu trúc Object Key & tối ưu Performance cho S3, cũng như các giải pháp lưu trữ lưu trữ lạnh với Amazon Glacier.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hiểu được vai trò và kịch bản sử dụng của các dịch vụ chuyển đổi/hybrid dữ liệu bao gồm AWS Snow Family và AWS Storage Gateway.
 
 

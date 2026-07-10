@@ -1,126 +1,54 @@
 ---
-title: "Blog 3"
-date: 2024-01-01
+title: "AWS Transform: When AI Autonomously Clears Tech Debt Across Thousands of Repositories"
+date: 2026-06-29
 weight: 1
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# Getting Started with Healthcare Data Lakes: Using Microservices
 
-Data lakes can help hospitals and healthcare facilities turn data into business insights, maintain business continuity, and protect patient privacy. A **data lake** is a centralized, managed, and secure repository to store all your data, both in its raw and processed forms for analysis. Data lakes allow you to break down data silos and combine different types of analytics to gain insights and make better business decisions.
+# AWS Transform: When AI Autonomously Clears Tech Debt Across Thousands of Repositories
 
-This blog post is part of a larger series on getting started with setting up a healthcare data lake. In my final post of the series, *“Getting Started with Healthcare Data Lakes: Diving into Amazon Cognito”*, I focused on the specifics of using Amazon Cognito and Attribute Based Access Control (ABAC) to authenticate and authorize users in the healthcare data lake solution. In this blog, I detail how the solution evolved at a foundational level, including the design decisions I made and the additional features used. You can access the code samples for the solution in this Git repo for reference.
+AWS has recently launched a highly notable feature within its AWS Transform suite: **Continuous Modernization (now in preview)**. Essentially, this tool automatically scans, detects, and fixes technical debt across an organization's entire codebase, eliminating the need for engineers to manually manage individual repositories.
 
 ---
 
-## Architecture Guidance
+## The Problem AWS Transform Solves
 
-The main change since the last presentation of the overall architecture is the decomposition of a single service into a set of smaller services to improve maintainability and flexibility. Integrating a large volume of diverse healthcare data often requires specialized connectors for each format; by keeping them encapsulated separately as microservices, we can add, remove, and modify each connector without affecting the others. The microservices are loosely coupled via publish/subscribe messaging centered in what I call the “pub/sub hub.”
+Companies typically spend up to **30% of their IT budgets** just maintaining and patching legacy systems. A widespread reality in modern enterprises is the reliance on fragmented, siloed tools:
+* One tool detects outdated dependencies.
+* Another checks for vulnerabilities.
+* Yet another analyzes code quality.
 
-This solution represents what I would consider another reasonable sprint iteration from my last post. The scope is still limited to the ingestion and basic parsing of **HL7v2 messages** formatted in **Encoding Rules 7 (ER7)** through a REST interface.
+This fragmentation leaves organizations without a unified solution capable of binding all these stages together to **automate remediation at scale**.
 
-**The solution architecture is now as follows:**
-
-> *Figure 1. Overall architecture; colored boxes represent distinct services.*
-
----
-
-While the term *microservices* has some inherent ambiguity, certain traits are common:  
-- Small, autonomous, loosely coupled  
-- Reusable, communicating through well-defined interfaces  
-- Specialized to do one thing well  
-- Often implemented in an **event-driven architecture**
-
-When determining where to draw boundaries between microservices, consider:  
-- **Intrinsic**: technology used, performance, reliability, scalability  
-- **Extrinsic**: dependent functionality, rate of change, reusability  
-- **Human**: team ownership, managing *cognitive load*
+> **A Technological Irony:**
+> While AI coding agents help developers ship code faster, they also cause technical debt to accumulate at an unprecedented velocity. As a result, engineering teams get bogged down clearing the "battlefield" rather than focusing on building innovative, core features.
 
 ---
 
-## Technology Choices and Communication Scope
+## How AWS Transform Works
 
-| Communication scope                       | Technologies / patterns to consider                                                        |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Within a single microservice              | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Between microservices in a single service | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Between services                          | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+The system operates flexibly using two core modes designed to cover comprehensive governance scenarios:
 
----
+### 1. Continuous Mode
+The tool continuously scans all repositories based on predefined or organization-specific policies. Upon detecting any repository that has lagged behind or deviated from the standard baseline, AWS Transform **automatically creates a Pull Request (PR) with the necessary fixes** and notifies the respective team. The only task left for the engineers is to review and merge.
 
-## The Pub/Sub Hub
+### 2. Campaign Mode
+This mode is tailor-made for major modernization initiatives and enterprise-wide updates—such as migrating frameworks or upgrading major versions across hundreds of applications simultaneously.
 
-Using a **hub-and-spoke** architecture (or message broker) works well with a small number of tightly related microservices.  
-- Each microservice depends only on the *hub*  
-- Inter-microservice connections are limited to the contents of the published message  
-- Reduces the number of synchronous calls since pub/sub is a one-way asynchronous *push*
-
-Drawback: **coordination and monitoring** are needed to avoid microservices processing the wrong message.
+### Out-of-the-Box Capabilities Supported:
+* Upgrading Java versions.
+* Upgrading Node.js environments.
+* Migrating codebases to the latest AWS SDK.
+* Updating Lambda runtimes before they officially hit their End of Support (EOL).
 
 ---
 
-## Core Microservice
+## Noteworthy Highlights
 
-Provides foundational data and communication layer, including:  
-- **Amazon S3** bucket for data  
-- **Amazon DynamoDB** for data catalog  
-- **AWS Lambda** to write messages into the data lake and catalog  
-- **Amazon SNS** topic as the *hub*  
-- **Amazon S3** bucket for artifacts such as Lambda code
-
-> Only allow indirect write access to the data lake through a Lambda function → ensures consistency.
+* **Deep Integration with AWS Security Agent:** Source code vulnerabilities are now funneled into the exact same detection and remediation pipeline. This entirely eliminates the friction of managing security flaws through a separate, isolated tool.
+* **Model Context Protocol (MCP) Support:** Leveraging MCP means enterprises can plug this feature directly into their existing internal coding agents to further streamline developer workflows.
 
 ---
-
-## Front Door Microservice
-
-- Provides an API Gateway for external REST interaction  
-- Authentication & authorization based on **OIDC** via **Amazon Cognito**  
-- Self-managed *deduplication* mechanism using DynamoDB instead of SNS FIFO because:  
-  1. SNS deduplication TTL is only 5 minutes  
-  2. SNS FIFO requires SQS FIFO  
-  3. Ability to proactively notify the sender that the message is a duplicate  
-
----
-
-## Staging ER7 Microservice
-
-- Lambda “trigger” subscribed to the pub/sub hub, filtering messages by attribute  
-- Step Functions Express Workflow to convert ER7 → JSON  
-- Two Lambdas:  
-  1. Fix ER7 formatting (newline, carriage return)  
-  2. Parsing logic  
-- Result or error is pushed back into the pub/sub hub  
-
----
-
-## New Features in the Solution
-
-### 1. AWS CloudFormation Cross-Stack References
-Example *outputs* in the core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+*For technical configuration details and setup steps, you can refer back to the original article on the AWS News Blog:* 🔗 [Proactively reduce tech debt autonomously with AWS Transform Continuous Modernization (preview)](https://aws.amazon.com/vi/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview)
