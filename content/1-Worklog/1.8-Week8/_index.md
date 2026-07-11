@@ -14,7 +14,7 @@ pre: " <b> 1.8. </b> "
 
 | Day | Task | Start Date | Completion Date | Resource Links |
 | --- | --- | --- | --- | --- |
-| Mon | - Review theoretical concepts of Module 05.<br>- Read tech blogs and conduct research to find a potential topic for the workshop. | 2026/06/08 | 2026/06/08 | |
+| Mon | - Review theoretical concepts of Module 05.<br>- Read tech blogs and conduct research to find a potential topic for the workshop. | 2026/06/08 | 2026/06/08 |<https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 | Tue | - **Hands-on Lab 70:** Implement an ETL pipeline to clean raw data, load it into data storage, and conduct analytical querying. Utilize AWS Glue DataBrew as a visual data preparation tool and Amazon Athena to query the processed datasets. | 2026/06/09 | 2026/06/09 | <https://000070.awsstudygroup.com/> |
 | Wed | - **Hands-on Lab 72:** Get familiar with various analytical services within the AWS Analytics portfolio. Configure Amazon Kinesis Data Generator to generate mock data, stream it into Amazon Kinesis Data Firehose, and register the datasets into the AWS Glue Data Catalog. Transform and analyze the data using AWS Glue. | 2026/06/10 | 2026/06/10 | <https://000072.awsstudygroup.com/> |
 | Thu | - Continue working on the remaining parts of Lab 72.<br>- Learn more about and research the newly discovered tech blog. | 2026/06/11 | 2026/06/11 | |

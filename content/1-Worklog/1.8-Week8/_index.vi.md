@@ -14,7 +14,7 @@ pre: " <b> 1.8. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Ôn tập lại lý thuyết  module05, đọc blog, tra cứu tìm đề tài cho workshop.                 | 08/06/2026   | 08/06/2026      |
+| 2   | - Ôn tập lại lý thuyết  module05, đọc blog, tra cứu tìm đề tài cho workshop.                 | 08/06/2026   | 08/06/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 | 3   | - **Thực hành lab70:** quy trình ETL làm sạch dữ liệu thô, nạp dữ liệu vào kho lưu trữ và tiến hành truy vấn phân tích.AWS Glue DataBrew,  công cụ chuẩn bị dữ liệu trực quan,dùng Athena để truy vấn dữ liệu đã xử lý.   | 09/06/2026   | 09/06/2026     | <https://000070.awsstudygroup.com/> |
 | 4   | - **Thực hành lab72:**làm quen với các dịch vụ phân tích nhau có trong danh mục AWS Analytics.Cấu hình Kinesis Data Generator để tạo ra dữ liệu giả và đưa nó vào Kinesis Firehose sau đó đăng ký các bộ dữ liệu trong AWS Glue Data Catalog.Transform Data với Glue và phân tích.  | 10/06/2026   | 10/06/2026       | <https://000072.awsstudygroup.com/> |
 | 5   | - Làm tiếp phần lab72, tìm hiểu và nghiên cứu blog vừa tìm được. | 11/06/2026   | 11/06/2026      |  |

@@ -7,7 +7,6 @@ pre: " <b> 1.7. </b> "
 ---
 
 
-
 ### Mục tiêu tuần 7:
 
 * Hoàn thành các lab của module07, ôn tập lại các lý thuyết modlue cũ.

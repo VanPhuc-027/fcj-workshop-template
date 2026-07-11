@@ -1,59 +1,35 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
+date: 2026-06-22
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Phác họa được cơ bản sơ đồ kiến trúc, cùng các thành viên thảo luận và chỉnh sửa sơ đồ cho chuẩn và đúng hơn, xin góp ý các anh chị và các bạn trong group để học hỏi và phát hiện ra các lỗi sai trong sơ đồ. 
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Ôn lại lý thuyết module cũ, cùng thành viên trong nhóm xem xét, đánh giá và thảo luận về sơ đồ kiến trúc mới được vẽ.           | 22/06/2026   | 22/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> |
+| 3   | - Cùng nghiên cứu tìm tài liệu, chỉnh sửa sơ đồ kiến trúc với các thành viên.  | 23/06/2026   | 23/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> |
+| 4   | - Tiếp tục chỉnh sử sơ đồ kiến trúc, gửi vào group để xin các đánh giá và góp ý, nhận ra được nhiều lỗi sai để tiếp tục sửa cho đúng hơn.  | 24/06/2026   | 24/06/2026      |  |
+| 5   | - Tìm hiểu và cài đặt kiro bổ trợ cho việc sửa sơ đồ kiến trúc, tiếp tục chỉnh sửa sơ đồ.   | 25/06/2026   | 25/06/2026      |  |
+| 6   | - Ôn lại kiến thức các bài lab cũ, tìm ddocwj thêm các tài liệu để củng cố lại về cách vẽ sơ đồ kiến trúc.               | 26/06/2026   | 26/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> <br> <https://www.youtube.com/watch?v=l8isyDe-GwY> |
+| 7   | - Tiếp tục cùng các thành viên thảo luận và chỉnh sửa sơ đồ kiến trúc.                   | 27/06/2026   | 27/06/2026      |  |
 
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiện thực hóa thành công ý tưởng của nhóm thành một bản phác thảo sơ đồ kiến trúc hệ thống cơ bản trên môi trường AWS, định hình cơ bản các lớp (layers) xử lý của dự án.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Tích cực tiếp thu, phân tích các phản hồi và góc nhìn chuyên môn từ các thành viên trong nhóm cũng như các bài viết trên AWS Architecture Blog để liên tục tối ưu hóa cấu trúc sơ đồ, đảm bảo tính bảo mật, khả năng mở rộng và hiệu năng của hệ thống.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Nghiên cứu, cài đặt và ứng dụng thành thạo công cụ hỗ trợ trực quan hóa để đồng bộ hóa luồng công việc giữa các thành viên, giúp việc chỉnh sửa, biểu diễn các mối liên kết và workflow giữa các dịch vụ đám mây trở nên trực quan, sinh động và chính xác hơn.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Xin được góp ý từ các anh chị chuyên gia cùng các bạn học viên khác từ đó nhận ra được các lỗi sai của sơ đồ kiến trúc hiện tại.
 
 
