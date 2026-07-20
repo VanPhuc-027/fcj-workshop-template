@@ -124,9 +124,10 @@ The table below details cost estimates generated via the AWS Pricing Calculator 
 | Amazon SES | 4,500 emails sent via Lambda/month | $0.45 |
 | **Cumulative Subtotal (Calculator)** | — | **$7.19** |
 | NAT Gateway *(Scheduled Creation/Deletion)* | Operates only during scheduled execution windows rather than 24/7 | **$15.045** |
-| **Total Estimated Cost (Excl. External AI API)** | — | **$22.24** |
+|Google Gemini AI API| free tier | 0.00 | 
+| **Total Estimated Cost** | — | **$22.24** |
 
-At **$22.24 USD/month**, total annual AWS infrastructure costs are estimated at approximately **$266.82 USD** (excluding external AI API usage fees, which must be calculated separately based on provider token pricing).
+At **$22.24 USD/month**, total annual AWS infrastructure costs are estimated at approximately **$266.82 USD**.
 
 *Important Engineering Note:* NAT Gateway does not support native Start/Stop operations like EC2 instances. To achieve the optimized cost of $15.045 USD/month (compared to ~$43 USD/month for 24/7 continuous operation), an EventBridge Schedule triggers a Lambda function to dynamically create (`CreateNatGateway`) the gateway prior to test execution windows and delete it (`DeleteNatGateway`) upon job completion. The operational trade-off is a 1-to-3 minute provisioning delay while NAT Gateway transitions to an active state, which may introduce latency for off-schedule manual test runs.
 

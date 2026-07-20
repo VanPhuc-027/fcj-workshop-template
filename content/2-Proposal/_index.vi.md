@@ -123,12 +123,11 @@ Bảng dưới đây được lập từ kết quả thực tế trên AWS Prici
 | Amazon API Gateway (HTTP API) | 0.0075 triệu request/tháng, 34 KB/request | 0.01 |
 | Amazon SES | 4.500 email gửi từ Lambda/tháng | 0.45 |
 | **Cộng dồn (Calculator)** | — | **7.19** |
-| NAT Gateway *(lập lịch tạo/xóa để tối ưu chi phí)* | Chỉ chạy trong khung giờ cần gọi OpenAI API, không chạy 24/7 | **15.045** |
-| **Tổng cộng (chưa gồm OpenAI API)** | — | **22.24** |
+| NAT Gateway *(lập lịch tạo/xóa để tối ưu chi phí)* | Chỉ chạy trong khung giờ cần gọi AI API, không chạy 24/7 | **15.045** |
+| Google Gemini AI API | free tier | 0.0.0  |
+| **Tổng cộng** | — | **22.24** |
 
-Với mức 22.24 USD/tháng, tổng chi phí AWS trong 12 tháng ước tính khoảng 266.82 USD (chưa gồm chi phí OpenAI API, do đây là dịch vụ bên thứ ba nằm ngoài AWS Pricing Calculator, cần cộng thủ công dựa trên giá token của nhà cung cấp).
-
-Lưu ý kỹ thuật quan trọng: NAT Gateway không hỗ trợ Start/Stop như EC2 để đạt được mức chi phí tối ưu 15.045 USD/tháng (thay vì khoảng 43 USD/tháng nếu chạy 24/7), phương án lên lịch cần dùng EventBridge Schedule kết hợp Lambda để tự động tạo (CreateNatGateway) trước khung giờ cần chạy và xóa (DeleteNatGateway) sau khi xong. Đánh đổi của cách này là NAT Gateway mất khoảng 1-3 phút để chuyển sang trạng thái sẵn sàng sau khi tạo, có thể gây độ trễ nếu QA kích hoạt kiểm thử thủ công đột xuất ngoài khung giờ đã lên lịch cần nêu rõ đánh đổi này trong phần rủi ro của báo cáo  
+Với mức 22.24 USD/tháng, tổng chi phí AWS trong 12 tháng ước tính khoảng 266.82 USD.
 
 ### 7. Đánh giá rủi ro  
 **Ma trận rủi ro**  
