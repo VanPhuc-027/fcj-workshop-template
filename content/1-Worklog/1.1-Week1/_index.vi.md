@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 1"
-date: 2026-04-20
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -14,11 +14,11 @@ pre: " <b> 1.1. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------ | --------------- | ----------------------------------------- |
-| 2   |- Tham gia group Whatapps FCAJ Hutech 2026, đọc nội quy group, tham gia nhóm facebook AWS Study group VN, đăng ký kênh youbtube AWS Study Group.Đăng ký và tạo tài khoản aws Free tier, tìm kiếm và làm quen thành viên nhóm đề tài đồ án.                                             | 20/04/2026   | 20/04/2026      |
-| 3   | - Làm các task khởi đầu để kiếm 100$ credit.Tìm hiểu hạ tầng toàn cầu AWS, các công cụ quản lý của dịch vụ AWS và các phương pháp tối ưu hóa chi phí.                                            | 21/04/2026   | 21/04/2026      | <https://000001.awsstudygroup.com/> |
-| 4   | - Làm lab01, lab07 về tạo budget, cách xóa tài nguyên sau khi làm lab thực hành, tạo support case | 22/04/2026   | 22/04/2026      | <https://000001.awsstudygroup.com/> <https://000007.awsstudygroup.com/> |
-| 5   | - Xem video hướng dẫn làm workshop, fork và clone fcj-workshop-template cài đặt và cấu hình hugo  <br>                  | 23/04/2026   | 23/04/2026      | <https://www.youtube.com/watch?v=mXRqgMr_97U> |
-| 6   | -Làm lab09, Xem trước video lý thuyết module02.                                                                                          | 24/04/2026   | 24/04/2026      | <https://000009.awsstudygroup.com/> |
+| Thứ 6  |- Tham gia kick off AWS, tham gia group Whatapps FCAJ Hutech 2026, đọc nội quy group, tham gia nhóm facebook AWS Study group VN, đăng ký kênh youbtube AWS Study Group.Đăng ký và tạo tài khoản aws Free tier, tìm kiếm và làm quen thành viên nhóm đề tài đồ án.                                             | 17/04/2026   | 17/04/2026      |
+| Thứ 7  | - Làm các task khởi đầu để kiếm 100$ credit.Tìm hiểu hạ tầng toàn cầu AWS, các công cụ quản lý của dịch vụ AWS và các phương pháp tối ưu hóa chi phí.                                            | 18/04/2026   | 18/04/2026      | <https://000001.awsstudygroup.com/> |
+| Chủ nhật | - Làm lab01, lab07 về tạo budget, cách xóa tài nguyên sau khi làm lab thực hành, tạo support case | 19/04/2026   | 19/04/2026      | <https://000001.awsstudygroup.com/> <https://000007.awsstudygroup.com/> |
+| Thứ 2   | - Xem video hướng dẫn làm workshop, fork và clone fcj-workshop-template cài đặt và cấu hình hugo  <br>                  | 20/04/2026   | 20/04/2026      | <https://www.youtube.com/watch?v=mXRqgMr_97U> |
+| Thứ 3   | -Làm lab09, Xem trước video lý thuyết module02.                                                                                          | 24/04/2026   | 24/04/2026      | <https://000009.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 1:
