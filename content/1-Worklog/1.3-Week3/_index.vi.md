@@ -1,11 +1,10 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-05-04
+date: 2026-05-01
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-
 
 ### Mục tiêu tuần 3:
 
@@ -14,12 +13,13 @@ pre: " <b> 1.3. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - **Học lý thuyết module03 tìm hiểu về các thành phần trong EC2**: <br> +Instance type. <br> +AMI / Backup / Key Pair. <br> Elastic block store và Instance store.                                    | 04/05/2026   | 04/05/2026      | <https://www.youtube.com/watch?v=e7XeKdOVq40> |
-| 3   | - **Học tiếp lý thuyết module03 tìm hiểu về:** <br> User data, Meta data, EC2 auto scaling. <br> EFS/FSx - Lightsail - MGN.                                            | 05/05/2026   | 05/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   |- **Thực hành lab13:** tạo ra một kế hoạch sao lưu (backup plan) cho các tài nguyên đang hoạt động trên AWS như EBS Volumes, RDS Databases, DynamoDB Tables, hay EFS File Systems.<br> &emsp; + Cách sử dụng AWS CLI | 06/05/2026   | 06/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - **Thực hành lab24:** <br> - Tạo S3 bucket và tạo EC2 Instance sử dụng AMI Storage Gateway mà AWS đã cung cấp sẵn. <br> - Sử dụng AWS Storage Gateway: tạo Storage Gateway, tạo File Share và kết nối ổ đĩa    | 07/05/2026   | 07/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành lab57:**thực hiện tạo S3 bucket và sau đó upload dữ liệu lên để chuẩn bị cho việc host static website.        | 07/05/2026   | 07/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 7   | - Ôn lại lý thuyết module03, xem lại các video hướng dẫn thực hành lab.      | 08/05/2026   | 08/05/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thứ 6   | - **Học lý thuyết module03 tìm hiểu về các thành phần trong EC2**: <br> +Instance type. <br> +AMI / Backup / Key Pair. <br> Elastic block store và Instance store.                                    | 01/05/2026   | 01/05/2026      | <https://www.youtube.com/watch?v=e7XeKdOVq40> |
+| Thứ 7   | - **Học tiếp lý thuyết module03 tìm hiểu về:** <br> User data, Meta data, EC2 auto scaling. <br> EFS/FSx - Lightsail - MGN.                                            | 02/05/2026   | 02/05/2026      | <https://www.youtube.com/watch?v=hFVYG8WqfU0&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=80> |
+| Chủ nhật   |- **Thực hành lab13:** tạo ra một kế hoạch sao lưu (backup plan) cho các tài nguyên đang hoạt động trên AWS như EBS Volumes, RDS Databases, DynamoDB Tables, hay EFS File Systems.<br> &emsp; + Cách sử dụng AWS CLI | 03/05/2026   | 03/05/2026      | <https://000013.awsstudygroup.com/> |
+| Thứ 2   | - **Thực hành lab24:** <br> - Tạo S3 bucket và tạo EC2 Instance sử dụng AMI Storage Gateway mà AWS đã cung cấp sẵn. <br> - Sử dụng AWS Storage Gateway: tạo Storage Gateway, tạo File Share và kết nối ổ đĩa    | 04/05/2026   | 04/05/2026      | <https://000024.awsstudygroup.com/> |
+| Thứ 3   | - **Thực hành lab57:**thực hiện tạo S3 bucket và sau đó upload dữ liệu lên để chuẩn bị cho việc host static website.        | 05/05/2026   | 05/05/2026      | <https://000057.awsstudygroup.com/> |
+| Thứ 4   | - Ôn lại lý thuyết module03, xem lại các video hướng dẫn thực hành lab.      | 06/05/2026   | 06/05/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thứ 5   | - Xem trước các video lý thuyết module04.      | 07/05/2026   | 07/05/2026      | <https://www.youtube.com/watch?v=hsCfP0IxoaM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=103> |
 
 
 ### Kết quả đạt được tuần 3:

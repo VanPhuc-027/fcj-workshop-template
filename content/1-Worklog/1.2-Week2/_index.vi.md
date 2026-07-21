@@ -1,11 +1,10 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-04-27
+date: 2026-04-24
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-
 
 ### Mục tiêu tuần 2:
 
@@ -14,12 +13,13 @@ pre: " <b> 1.2. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | -Tự học lý thuyết module02:  <br> - AWS Virtual Private Cloudt. <br> - VPC Security and Multi-VPC features. <br>- VPN - DirectConnect - LoadBalancer - ExtraResources | 27/04/2026   | 27/04/2026      | | <https://www.youtube.com/watch?v=O9Ac_vGHquM> <br> <https://www.youtube.com/watch?v=BPuD1l2hEQ4> <br> <https://www.youtube.com/watch?v=CXU8D3kyxIc> |
-| 3   | -Ôn lại lý thuyết module02. <br> **Thực hành lab03:** <br>- Cách tạo subnet, nat gateway, internet gateway,... <br>- Cách tạo và cấu hình security group, network ACLs,... <br>- Cách tạo vpc, ec2, cấu hình vpn, site to site vpn. <br>- Cách cấu hình transit gateway, route Tables.                                            | 28/04/2026   | 28/04/2026      | <https://000003.awsstudygroup.com/> |
-| 4   | **Thực hành lab10:**Cách tạo keypair và setup DNS <br>  | 29/04/2026   | 29/04/2026      | <https://000010.awsstudygroup.com/> |
-| 5   | **Thực hành lab19:**Làm lab về cloudformation, tạo security group, network ACLS và EC2 instance và kích hoạt tính năng Cross-peering DNS để cho phép EC2 - My VPC truy vấn public DNS của EC2 - HG VPC. <br>                  | 30/04/2026   | 30/04/2026      | <https://000019.awsstudygroup.com/> |
-| 6   | - **Thực hành lab20:**thực hành triển khai kiến trúc kết nối bốn VPC thông qua AWS Transit Gateway. <br>  | 01/05/2026   | 01/05/2026      | <https://000020.awsstudygroup.com/> |
-| 7   | - Ôn lại lý thuyết và xem lại các video lab thực hành.  | 02/05/2026   | 02/05/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thứ 6  | -Tự học lý thuyết module02:  <br> - AWS Virtual Private Cloudt. <br> - VPC Security and Multi-VPC features. <br>- VPN - DirectConnect - LoadBalancer - ExtraResources | 24/04/2026   | 24/04/2026      | | <https://www.youtube.com/watch?v=O9Ac_vGHquM> <br> <https://www.youtube.com/watch?v=BPuD1l2hEQ4> <br> <https://www.youtube.com/watch?v=CXU8D3kyxIc> |
+| Thứ 7  | -Ôn lại lý thuyết module02. <br> **Thực hành lab03:** <br>- Cách tạo subnet, nat gateway, internet gateway,... <br>- Cách tạo và cấu hình security group, network ACLs,... <br>- Cách tạo vpc, ec2, cấu hình vpn, site to site vpn. <br>- Cách cấu hình transit gateway, route Tables.                                            | 25/04/2026   | 25/04/2026      | <https://000003.awsstudygroup.com/> |
+| Chủ nhật  | **Thực hành lab10:**Cách tạo keypair và setup DNS <br>  | 26/04/2026   | 26/04/2026      | <https://000010.awsstudygroup.com/> |
+| Thứ 2  | **Thực hành lab19:**Làm lab về cloudformation, tạo security group, network ACLS và EC2 instance và kích hoạt tính năng Cross-peering DNS để cho phép EC2 - My VPC truy vấn public DNS của EC2 - HG VPC. <br>                  | 27/04/2026   | 27/04/2026      | <https://000019.awsstudygroup.com/> |
+| Thứ 3  | - **Thực hành lab20:**thực hành triển khai kiến trúc kết nối bốn VPC thông qua AWS Transit Gateway. <br>  | 28/04/2026   | 28/04/2026      | <https://000020.awsstudygroup.com/> |
+| Thứ 4  | - Ôn lại lý thuyết và xem lại các video lab thực hành.  | 29/04/2026   | 29/04/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thứ 5  | - Xem trước video lý thuyết module03.  | 30/04/2026   | 30/04/2026      | <https://www.youtube.com/watch?v=-t5h4N6vfBs&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=72> |
 
 
 ### Kết quả đạt được tuần 2:

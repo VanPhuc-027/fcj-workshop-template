@@ -1,11 +1,10 @@
 ---
 title: "Worklog Tuần 10"
-date: 2026-06-22
+date: 2026-06-19
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-
 
 ### Mục tiêu tuần 10:
 
@@ -14,13 +13,13 @@ pre: " <b> 1.10. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Ôn lại lý thuyết module cũ, cùng thành viên trong nhóm xem xét, đánh giá và thảo luận về sơ đồ kiến trúc mới được vẽ.           | 22/06/2026   | 22/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> |
-| 3   | - Cùng nghiên cứu tìm tài liệu, chỉnh sửa sơ đồ kiến trúc với các thành viên.  | 23/06/2026   | 23/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> |
-| 4   | - Tiếp tục chỉnh sử sơ đồ kiến trúc, gửi vào group để xin các đánh giá và góp ý, nhận ra được nhiều lỗi sai để tiếp tục sửa cho đúng hơn.  | 24/06/2026   | 24/06/2026      |  |
-| 5   | - Tìm hiểu và cài đặt kiro bổ trợ cho việc sửa sơ đồ kiến trúc, tiếp tục chỉnh sửa sơ đồ.   | 25/06/2026   | 25/06/2026      |  |
-| 6   | - Ôn lại kiến thức các bài lab cũ, tìm ddocwj thêm các tài liệu để củng cố lại về cách vẽ sơ đồ kiến trúc.               | 26/06/2026   | 26/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> <br> <https://www.youtube.com/watch?v=l8isyDe-GwY> |
-| 7   | - Tiếp tục cùng các thành viên thảo luận và chỉnh sửa sơ đồ kiến trúc.                   | 27/06/2026   | 27/06/2026      |  |
-
+| Thứ 6   | - Ôn lại lý thuyết module cũ, cùng thành viên trong nhóm xem xét, đánh giá và thảo luận về sơ đồ kiến trúc mới được vẽ.           | 19/06/2026   | 19/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> |
+| Thứ 7   | - Cùng nghiên cứu tìm tài liệu, chỉnh sửa sơ đồ kiến trúc với các thành viên.  | 20/06/2026   | 20/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> |
+| Chủ nhật   | - Tiếp tục chỉnh sử sơ đồ kiến trúc, gửi vào group để xin các đánh giá và góp ý, nhận ra được nhiều lỗi sai để tiếp tục sửa cho đúng hơn.  | 21/06/2026   | 21/06/2026      |  |
+| Thứ 2   | - Tìm hiểu và cài đặt kiro bổ trợ cho việc sửa sơ đồ kiến trúc, tiếp tục chỉnh sửa sơ đồ.   | 22/06/2026   | 22/06/2026      |  |
+| Thứ 3   | - Ôn lại kiến thức các bài lab cũ, tìm ddocwj thêm các tài liệu để củng cố lại về cách vẽ sơ đồ kiến trúc.               | 23/06/2026   | 23/06/2026      | <https://aws.amazon.com/vi/blogs/architecture/> <br> <https://www.youtube.com/watch?v=l8isyDe-GwY> |
+| Thứ 4   | - Tiếp tục cùng các thành viên thảo luận và chỉnh sửa sơ đồ kiến trúc.                   | 24/06/2026   | 24/06/2026      |  |
+| Thứ 5   | -  Nghiên cứu thêm tài liệu và tiếp tục chỉnh sửa kiến trúc hệ thống.     | 25/06/2026   | 25/06/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 
 ### Kết quả đạt được tuần 10:
 
