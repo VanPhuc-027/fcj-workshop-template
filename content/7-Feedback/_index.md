@@ -1,47 +1,45 @@
 ---
-title: "Sharing and Feedback"
-date: 2024-01-01
+title: "Feedback & Suggestions"
+date: 2026-07-05
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
-
 ### Overall Evaluation
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+**1. Work Environment**  
+The workspace at FCJ left a very positive impression on me with its friendly and open atmosphere. I received enthusiastic support from senior team members, even outside regular working hours. Desks and common areas were kept clean and orderly, creating a comfortable space that boosted productivity.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+**2. Mentor & Team Admin Support**  
+My mentor was dedicated, patient, and willing to explain concepts multiple times until I thoroughly understood the underlying issues. They consistently encouraged me to actively ask questions rather than stay silent when confused.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+**3. Alignment with Academic Major**  
+Overall, assigned tasks closely aligned with the foundational knowledge I learned at university, allowing me to adapt quickly. Additionally, I was exposed to several new technical domains not covered in school, enabling me to review core concepts while expanding my practical understanding.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+Throughout this internship, I acquired numerous valuable skills—from becoming proficient in project management tools and improving team collaboration to refining communication strategies. Furthermore, real-world industry insights shared by my mentor provided valuable guidance for shaping my future career path.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+**5. Culture & Team Spirit**  
+A culture of mutual respect was evident among all members. Work was approached seriously, yet the atmosphere remained comfortable and enjoyable. During tight project deadlines, the entire team collaborated seamlessly to support one another regardless of individual roles or positions.
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+**6. Intern Policies & Benefits**  
+The company accommodated flexible time arrangements when needed. Moreover, having the opportunity to participate in Saturday community sessions was a major highlight, greatly benefiting my learning journey and project work.
 
----
+### Frequently Asked Questions
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+* **What were you most satisfied with during your internship?**  
+  What satisfied me most was the dedication of the AWS admin team and mentors. They were consistently patient, offering constructive feedback, and sharing practical experience. The rich repository of learning resources also made discovering and adopting AWS services much smoother.
+* **What areas do you think the company should improve for future interns?**  
+  Some hands-on labs are somewhat outdated and could use updating to help future cohorts learn more efficiently. Additionally, if office capacity expands, it would allow more interns to study on-site and attend live events.
+* **Would you recommend this internship to your friends? Why?**  
+  Yes, I would certainly recommend it. Participating in this program was a valuable experience. It offers friends a great opportunity to broaden their cloud computing skills—or advance their existing knowledge if they are already pursuing this track.
 
----
+### Proposals & Future Aspirations
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+* **Do you have any suggestions to improve the internship experience?**  
+  Because some hands-on labs have become outdated, self-study was occasionally challenging. I hope these lab materials will be updated soon to streamline the learning process for future participants.
+* **Would you like to continue with this program in the future?**  
+  While I am still defining my long-term career direction and unsure if I will find the right teammates moving forward, I would love to continue participating in this program to further challenge myself if the right conditions align.
+* **Additional Feedback (Open Comments):**  
+  All of my suggestions and feedback have been shared in the sections above.
