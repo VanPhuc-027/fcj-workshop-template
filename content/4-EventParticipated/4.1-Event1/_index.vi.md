@@ -102,3 +102,11 @@ pre: " <b> 4.1. </b> "
 * Đây là cơ hội tốt để quan sát, học hỏi từ những kinh nghiệm thực chiến của người đi trước, đồng thời tạo động lực để nhóm tiếp tục hoàn thiện dự án capstone đang thực hiện.
 
 ### Một số hình ảnh tham gia sự kiện
+
+![Slide khai mạc - Level Up Your AWS Skills with Cloud Quest and Floci](/images/4-EventParticipated/4.1-Event1/event1-slide1-aws-cloudquest-floci.png?featherlight=false&width=90pc)
+
+![Giới thiệu AWS Cloud Quest - nền tảng học AWS qua game](/images/4-EventParticipated/4.1-Event1/event1-slide2-cloudquest.jpg?featherlight=false&width=90pc)
+
+![Giới thiệu Floci - Local AWS Testing với AWS Service Emulator](/images/4-EventParticipated/4.1-Event1/event1-slide3-local-aws-testing-floci.jpg?featherlight=false&width=90pc)
+
+![Demo dự án Tử Vi Đại Việt - ứng dụng AI của thành viên nhóm](/images/4-EventParticipated/4.1-Event1/event1-slide4-tu-vi-dai-viet.png?featherlight=false&width=90pc)
