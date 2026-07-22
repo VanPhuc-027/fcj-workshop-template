@@ -19,8 +19,8 @@ pre: " <b> 1.12 </b> "
 | Chủ nhật   | - Test chức năng kiểm thử thủ công, phát hiện ra lỗi logic khiến lambda không đọc đúng file test-scripts đã lưu trong s3, nghiên cứu và tiếp tục sửa lỗi trong file cấu hình docker. | 05/07/2026   | 05/07/2026      |  |
 | Thứ 2   | - Tiếp tục kiểm thử và sửa lỗi thiếu biến môi trường, chạy thử thủ công trả về lỗi 401, lịch sử test bị treo ở trạng thái running.     | 06/07/2026   | 06/07/2026       |
 | Thứ 3   | - Tiếp tục sửa lỗi logic về vấn đề AI không thể đọc log từ log stream để tóm tắt lỗi được, xóa pricing plan chuyển API key demo dự án về lại free tier để truy cập được log stream trong cloudwatch.           | 07/07/2026   | 07/07/2027  |
-| Thứ 4   | - Kiểm tra và sửa lỗi gửi tóm tắt lỗi sau khi test về email nhưng không có nội dung tóm tắt, sửa nốt các lỗi lặt vặt còn sót và trạng thái frontend, edit dần vào workshop.      | 08/07/2026   | 08/07/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| Thứ 5   | - Kiểm thử lần cuối và hoàn thành các luồng workshop, tiếp tục hoàn chỉnh báo cáo.       | 09/07/2026   | 09/07/2026      | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thứ 4   | - Kiểm tra và sửa lỗi gửi tóm tắt lỗi sau khi test về email nhưng không có nội dung tóm tắt, sửa nốt các lỗi lặt vặt còn sót và trạng thái frontend, edit dần vào workshop.      | 08/07/2026   | 08/07/2026      |
+| Thứ 5   | - Kiểm thử lần cuối và hoàn thành các luồng workshop, tiếp tục hoàn chỉnh báo cáo.       | 09/07/2026   | 09/07/2026       |
 
 ### Kết quả đạt được tuần 12:
 
