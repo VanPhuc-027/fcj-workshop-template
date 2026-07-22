@@ -112,5 +112,4 @@ pre: " <b> 4.4. </b> "
 * Buổi chia sẻ không chỉ truyền tải kiến thức kỹ thuật khô khan mà còn lan tỏa mạnh mẽ 6 giá trị cốt lõi của văn hóa AWS Builder.
 ---
 
-## Một số hình ảnh tham gia sự kiện
 

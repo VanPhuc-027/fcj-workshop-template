@@ -1,44 +1,30 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-07-09
 weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
-
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Le Van Phuc  
+&emsp; **Phone Number:** 0389329548  
+&emsp; **Email:** phucvjppromax@gmail.com  
+&emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)  
+&emsp; **Major:** Information Technology  
+&emsp; **Class:** 22DTHE2  
+&emsp; **Host Company:** Amazon Web Services Vietnam Company Limited  
+&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey  
+&emsp; **Internship Period:** From April 17, 2026 to July 30, 2026  
 
-&emsp; **Phone Number:** 0989888999 
+![Profile Picture](/images/avatar.png)
 
-&emsp; **Email:** Anguyenvan@gmail.com
+### Report Table of Contents
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
-
-&emsp; **Major:** Information Technology
-
-&emsp; **Class:** AWS082025
-
-&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
-
-&emsp; **Internship Position:** FCJ Cloud Intern
-
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
-
-![Your profile picture](/images/avatar.png)
-
-### Report Content
-
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [Translated Blogs](3-BlogsTranslated/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+1. [Worklog](1-Worklog/)
+2. [Proposal](2-Proposal/)
+3. [Translated Blogs](3-BlogsTranslated/)
+4. [Events Attended](4-EventParticipated/)
+5. [Workshop](5-Workshop/)
+6. [Self-Assessment](6-Self-evaluation/)
+7. [Feedback & Suggestions](7-Feedback/)

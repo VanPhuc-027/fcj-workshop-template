@@ -114,5 +114,3 @@ pre: " <b> 4.3. </b> "
   Sự kiện không chỉ dừng lại ở lý thuyết LLM đơn thuần mà mang đến cái nhìn rất sâu về **AI Agents**, **Voice AI** và **AgenticOps** – những công nghệ đang thực sự giải quyết các bài toán hạ tầng và vận hành của doanh nghiệp.
 * **Chất lượng chuyên môn cao:** 
   Các diễn giả đều là những chuyên gia, kỹ sư dày dạn kinh nghiệm thực chiến. Các phần trình bày về kiến trúc hệ thống, đường đi dữ liệu (*data flow*) và giải pháp khắc phục lỗi (*troubleshooting*) cực kỳ chi tiết, mang lại giá trị tham khảo chuyên môn cao.
-
-## Một số hình ảnh tham gia sự kiện

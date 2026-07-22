@@ -10,7 +10,12 @@ pre: " <b> 4.1. </b> "
 
 ### Event Objectives
 
-- Gain insights into Cloud Modernization, GenAI application deployment, DevOps practices, and software development mindsets from experienced industry speakers.
+* Introduce cost-effective AWS learning and hands-on tools (AWS Cloud Quest, Floci).
+* Share practical experience and the benefits of participating in Hackathons.
+* Inspire self-confidence for personal and professional development.
+* Present a tech startup case study in astrology (Tu Vi Dai Viet).
+* Raise awareness and provide solutions for hidden pitfalls in software project management and DevOps.
+* Analyze the deeper psychological root causes of procrastination and strategies to overcome them.
 
 ### Speaker List
 
@@ -29,7 +34,7 @@ pre: " <b> 4.1. </b> "
 
 - **Beginner Worries with AWS:** Beginners constantly worry about unexpected costs, frequently checking billing dashboards out of fear of forgetting to delete resources after hands-on labs, and struggle to understand hidden cloud charges.
 
-- **AWS Cloud Quest:** An 3D role-playing game developed by Amazon Web Services (AWS) to make learning cloud computing engaging. It combines theoretical knowledge with hands-on practice, allowing learners to build and validate AWS skills by solving real-world scenarios for virtual characters.
+- **AWS Cloud Quest:** A 3D role-playing game developed by Amazon Web Services (AWS) to make learning cloud computing engaging. It combines theoretical knowledge with hands-on practice, allowing learners to build and validate AWS skills by solving real-world scenarios for virtual characters.
 
 - **Floci AWS Testing:** A free, open-source Local Cloud Emulator designed to replace bulky, paid emulation tools due to its rapid startup times and minimal resource consumption. Floci allows users to emulate AWS labs locally without worrying about accruing cloud charges.
 
@@ -102,3 +107,13 @@ pre: " <b> 4.1. </b> "
 * The diverse session topics—spanning cloud technicals (AWS, DevOps), soft skills (confidence, overcoming procrastination), and startup case studies (Tu Vi Dai Viet)—kept the event highly engaging.
 * Speakers used an approachable, interactive style filled with humor and relatable stories, making complex concepts easy to digest.
 * The event provided an excellent opportunity to learn from industry veterans while boosting team motivation for our ongoing capstone project.
+
+### Event Photos
+
+![Slide Level Up Your AWS Skills with Cloud Quest and Floci](/images/4-EventParticipated/4.1-Event1/event1-slide1-aws-cloudquest-floci.png?featherlight=false&width=90pc)
+
+![Introducing AWS Cloud Quest - Gamified AWS Learning Platform](/images/4-EventParticipated/4.1-Event1/event1-slide2-cloudquest.jpg?featherlight=false&width=90pc)
+
+![Introducing Floci - Local AWS Testing with AWS Service Emulator](/images/4-EventParticipated/4.1-Event1/event1-slide3-local-aws-testing-floci.jpg?featherlight=false&width=90pc)
+
+![Tu Vi Dai Viet Project Demo - AI application by team members](/images/4-EventParticipated/4.1-Event1/event1-slide4-tu-vi-dai-viet.png?featherlight=false&width=90pc)

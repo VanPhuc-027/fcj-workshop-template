@@ -103,7 +103,7 @@ pre: " <b> 4.1. </b> "
 
 ### Một số hình ảnh tham gia sự kiện
 
-![Slide khai mạc - Level Up Your AWS Skills with Cloud Quest and Floci](/images/4-EventParticipated/4.1-Event1/event1-slide1-aws-cloudquest-floci.png?featherlight=false&width=90pc)
+![Slide Level Up Your AWS Skills with Cloud Quest and Floci](/images/4-EventParticipated/4.1-Event1/event1-slide1-aws-cloudquest-floci.png?featherlight=false&width=90pc)
 
 ![Giới thiệu AWS Cloud Quest - nền tảng học AWS qua game](/images/4-EventParticipated/4.1-Event1/event1-slide2-cloudquest.jpg?featherlight=false&width=90pc)
 
