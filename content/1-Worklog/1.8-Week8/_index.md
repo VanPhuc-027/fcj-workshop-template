@@ -1,6 +1,6 @@
 ---
 title: "Week 8 Worklog"
-date: 2026-06-08
+date: 2026-06-05
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -8,27 +8,23 @@ pre: " <b> 1.8. </b> "
 
 ### Week 8 Objectives:
 
-* Continue executing the remaining practical labs in Module 07, research materials for technical blog writing, and identify a suitable topic for the upcoming workshop.
+* Complete remaining Module 07 hands-on labs, research technical blogs, and select an appropriate workshop topic.
 
 ### Tasks to Implement This Week:
 
 | Day | Task | Start Date | Completion Date | Resource Links |
 | --- | --- | --- | --- | --- |
-| Mon | - Review theoretical concepts of Module 05.<br>- Read tech blogs and conduct research to find a potential topic for the workshop. | 2026/06/08 | 2026/06/08 |<https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| Tue | - **Hands-on Lab 70:** Implement an ETL pipeline to clean raw data, load it into data storage, and conduct analytical querying. Utilize AWS Glue DataBrew as a visual data preparation tool and Amazon Athena to query the processed datasets. | 2026/06/09 | 2026/06/09 | <https://000070.awsstudygroup.com/> |
-| Wed | - **Hands-on Lab 72:** Get familiar with various analytical services within the AWS Analytics portfolio. Configure Amazon Kinesis Data Generator to generate mock data, stream it into Amazon Kinesis Data Firehose, and register the datasets into the AWS Glue Data Catalog. Transform and analyze the data using AWS Glue. | 2026/06/10 | 2026/06/10 | <https://000072.awsstudygroup.com/> |
-| Thu | - Continue working on the remaining parts of Lab 72.<br>- Learn more about and research the newly discovered tech blog. | 2026/06/11 | 2026/06/11 | |
-| Fri | - **Hands-on Lab 73:** Build a business intelligence dashboard to visualize data; perform data analysis and presentation using Amazon QuickSight. | 2026/06/12 | 2026/06/12 | <https://000073.awsstudygroup.com/> |
-| Sat | - Review theoretical training videos and re-watch select practical lab tutorial videos to consolidate knowledge. | 2026/06/13 | 2026/06/13 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Fri | - Re-watch demonstration videos for Lab 70, Lab 40, and Lab 60.<br>- Read reference technical blogs to brainstorm workshop project topics. | 2026/06/05 | 2026/06/05 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i><br><https://aws.amazon.com/blogs/architecture/> |
+| Sat | - Review Module 05 theoretical concepts.<br>- Research blogs and select a topic for the upcoming workshop. | 2026/06/06 | 2026/06/06 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Sun | - **Hands-on Lab 72:** Explore analytical services within the AWS Analytics portfolio.<br>- Configure Amazon Kinesis Data Generator to generate mock streaming data into Amazon Kinesis Data Firehose.<br>- Register datasets in AWS Glue Data Catalog, transform data using AWS Glue, and perform analytics queries. | 2026/06/07 | 2026/06/07 | <https://000072.awsstudygroup.com/> |
+| Mon | - Continue working on **Lab 72**.<br>- Deep-dive research into selected architectural blogs. | 2026/06/08 | 2026/06/08 | <https://000072.awsstudygroup.com/><br><https://aws.amazon.com/blogs/architecture/> |
+| Tue | - **Hands-on Lab 73:** Build interactive business intelligence dashboards to visualize data and perform visual analytics using Amazon QuickSight. | 2026/06/09 | 2026/06/09 | <https://000073.awsstudygroup.com/> |
+| Wed | - Review theoretical concepts and re-watch lab execution videos. | 2026/06/10 | 2026/06/10 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thu | - Consolidate prior module knowledge and review guidance videos on drawing cloud architecture diagrams. | 2026/06/11 | 2026/06/11 | <https://www.youtube.com/watch?v=l8isyDe-GwY&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=2> |
 
 ### Week 8 Achievements:
 
-* Mastered the complete End-to-End Data Pipeline architecture on AWS cloud, encompassing all critical phases: Real-time Ingestion -> Transformation/ETL -> Storage/Cataloging -> Querying -> Business Intelligence Visualization.
-
-* Absorbed modern data engineering mindsets utilizing No-code Data Preparation tools, understanding how to clean and shape raw data prior to storage to enhance analytics accuracy.
-
-* Mastered mechanisms for large-scale, continuous real-time streaming data ingestion and orchestration, clearly distinguishing the distinct roles within the AWS dynamic data ecosystem.
-
-* Gained practical experience with AWS Glue DataBrew to construct visual ETL workflows that clean and normalize raw data rapidly without writing code.
-
-* Successfully configured Amazon Kinesis Data Generator to simulate continuous streaming data and successfully funneled it into Amazon Kinesis Data Firehose.
+* Mastered end-to-end data processing pipeline design on AWS, encompassing all core stages: Real-time Ingestion $\rightarrow$ Transformation/ETL $\rightarrow$ Storage/Cataloging $\rightarrow$ Querying $\rightarrow$ Visualization.
+* Adopted modern no-code data preparation methodologies, understanding how to clean and shape raw data prior to storage to improve analytical model accuracy.
+* Understood real-time streaming data ingestion and orchestration at scale, distinguishing the role of each component within AWS's dynamic data ecosystem.
+* Mastered AWS Glue DataBrew for no-code visual ETL data cleaning and normalization; successfully configured Amazon Kinesis Data Generator to simulate continuous data streams ingested via Amazon Kinesis Data Firehose.

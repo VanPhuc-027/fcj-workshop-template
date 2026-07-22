@@ -1,6 +1,6 @@
 ---
 title: "Week 7 Worklog"
-date: 2026-06-02
+date: 2026-05-29
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -8,28 +8,25 @@ pre: " <b> 1.7. </b> "
 
 ### Week 7 Objectives:
 
-* Successfully complete all practical labs in Module 07 and comprehensively review theoretical concepts from previous modules.
-* Read reference tech blogs to gather ideas for upcoming blog posts and finalize the graduation thesis topic.
+* Complete Module 07 practical labs and review theoretical concepts from previous modules.
+* Read reference architecture blogs to brainstorm ideas for technical blog posts and select the final project topic.
 
 ### Tasks to Implement This Week:
 
 | Day | Task | Start Date | Completion Date | Resource Links |
 | --- | --- | --- | --- | --- |
-| Mon | - **Hands-on Lab 35:** Implement a Data Lake architecture and create an AWS Glue Data Catalog. | 2026/06/01 | 2026/06/01 | <https://000035.awsstudygroup.com/> |
-| Tue | - Review theoretical concepts of Module 01 and Module 02.<br>- Read tech blogs to research prospective topics for publication in the Facebook study group. | 2026/06/02 | 2026/06/02 | <https://000035.awsstudygroup.com/> |
-| Wed | - Watch tutorial video for **Lab 39**: Learn how to create tables, populate sample data, and perform CRUD operations utilizing both AWS CLI and the Management Console.<br>- Explore advanced NoSQL design & data modeling, event-driven processing, and Change Data Capture (CDC). | 2026/06/03 | 2026/06/03 | <https://www.youtube.com/watch?v=w5bqLYPv6DA> |
-| Thu | - **Hands-on Lab 40:** Explore AWS Glue along with analytics capabilities for cost and performance optimization. Easily initialize, run, and monitor ETL (Extract, Transform, Load) pipelines via AWS Glue Studio. | 2026/06/04 | 2026/06/04 | <https://000040.awsstudygroup.com/> |
-| Fri | - **Hands-on Lab 60:** Utilize Amazon DynamoDB to provision NoSQL database tables within the AWS environment. | 2026/06/05 | 2026/06/05 | <https://000060.awsstudygroup.com/> |
-| Sat | - Attend the morning community event (successfully joined the session despite an initial scheduling mix-up).<br>- Review practical lab implementation tutorial videos in the afternoon. | 2026/06/06 | 2026/06/06 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Fri | - **Hands-on Lab 35:** Deploy Data Lakes and configure Data Catalogs on AWS. | 2026/05/29 | 2026/05/29 | <https://000035.awsstudygroup.com/> |
+| Sat | - Attend the morning community event.<br>- Review theoretical concepts across previous modules in the afternoon. | 2026/05/30 | 2026/05/30 | <https://cloudjourney.awsstudygroup.com/> |
+| Sun | - Watch **Lab 39** demonstration video: Create tables, populate sample data, and perform CRUD operations using the AWS CLI and AWS Management Console.<br>- Advanced NoSQL Data Modeling & Design patterns.<br>- Event-driven processing & Change Data Capture (CDC) architectures. | 2026/05/31 | 2026/05/31 | <https://www.youtube.com/watch?v=w5bqLYPv6DA> |
+| Mon | - **Hands-on Lab 40:** Explore AWS Glue, analyzing ETL cost and performance drivers.<br>- Build, run, and monitor ETL pipelines using AWS Glue Studio. | 2026/06/01 | 2026/06/01 | <https://000040.awsstudygroup.com/> |
+| Tue | - **Hands-on Lab 60:** Provision Amazon DynamoDB tables and practice NoSQL database management. | 2026/06/02 | 2026/06/02 | <https://000060.awsstudygroup.com/> |
+| Wed | - **Hands-on Lab 70:** Execute end-to-end ETL pipelines: cleanse raw data, load into target storage, and run analytical queries.<br>- Leverage AWS Glue DataBrew for visual data preparation and query processed datasets with Amazon Athena. | 2026/06/03 | 2026/06/03 | <https://000070.awsstudygroup.com/> |
+| Thu | - Continue completing **Lab 70**.<br>- Research architectural blog posts for project topic ideas and implementation patterns. | 2026/06/04 | 2026/06/04 | <https://000070.awsstudygroup.com/><br><https://aws.amazon.com/blogs/architecture/> |
 
 ### Week 7 Achievements:
 
-* Absorbed advanced concepts from Module 07, focusing heavily on Big Data architectures (Data Lake), centralized metadata management, and Non-Relational (NoSQL) database paradigms.
-
-* Deeply understood the mechanics of building a centralized Data Lake to dismantle data silos, combined with structuring an AWS Glue Data Catalog for consistent and unified metadata governance.
-
-* Formulated comprehensive ETL (Extract, Transform, Load) automated data processing pipelines utilizing AWS Glue tools to achieve enhanced operational cost and performance metrics.
-
-* Successfully deployed a foundational Data Lake framework, establishing a centralized Data Catalog to precisely define underlying data schemas for downstream analytical services.
-
-* Mastered core workflows of AWS Glue and successfully utilized the visual interface of AWS Glue Studio to map data transformations.
+* Gained advanced knowledge in Module 07 focusing on Big Data architectures (Data Lakes), central Metadata management, and NoSQL non-relational database paradigms.
+* Understood how to build a centralized Data Lake to eliminate data silos, integrated with AWS Glue Data Catalog to maintain consistent metadata definitions.
+* Defined automated Extract, Transform, and Load (ETL) data processing workflows using AWS Glue, optimizing performance and operational costs.
+* Successfully deployed a foundational Data Lake framework and configured a centralized Data Catalog to structure datasets for downstream analytics.
+* Developed hands-on experience with AWS Glue and successfully utilized its visual interface, AWS Glue Studio, alongside AWS Glue DataBrew and Amazon Athena.

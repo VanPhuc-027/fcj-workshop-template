@@ -40,7 +40,7 @@ pre: " <b> 4.1. </b> "
 
 - **Hackathon:**giới thiệu hackathon là một cuộc thi phát triển phần mềm  theo đội nhóm trong một khoảng thời gian bị giới hạn liên tục — thường kéo dài từ 24 đến 48 tiếng.Một trận "marathon lập trình", nơi các thành viên phải ăn, ngủ, và "chiến đấu" cùng code ngay tại địa điểm thi để biến một ý tưởng sơ khai thành một sản phẩm chạy thử được (Prototype).
 
-- **Why you should join a Hackathon:**Tham gia một cuộc thi Hackathon giúp tiếp xúc và làm việc với dự án thực tế
+- **Why you should join a Hackathon:**Tham gia một cuộc thi Hackathon giúp tiếp xúc và làm việc với dự án thực tế, từ lý thuyết biến thành thực hành giúp có thêm kinh nghiệm làm dự án thật đặt biệt là trong thời gian deadline áp lực là 48 tiếng.Có những điểm cộng để ghi vào profile trong CV.
 
 #### 3. Why We Always Need Confidence
 - **Diễn giả:** Nguyen Thi Quynh Nhu

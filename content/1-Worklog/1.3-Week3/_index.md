@@ -1,6 +1,6 @@
 ---
 title: "Week 3 Worklog"
-date: 2026-05-04
+date: 2026-05-01
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
@@ -8,27 +8,25 @@ pre: " <b> 1.3. </b> "
 
 ### Week 3 Objectives:
 
-* Complete Module 03, thoroughly grasp the theoretical concepts of Amazon Elastic Compute Cloud (EC2), Lightsail, EFS/FSx, and AWS Application Migration Service (MGN), and perform hands-on labs related to creating S3 buckets, CloudFront, loading data, etc.
+* Complete Module 03, gaining a firm theoretical understanding of Amazon Elastic Compute Cloud (EC2), Amazon Lightsail, Amazon EFS / Amazon FSx, and Application Migration Service (MGN).
+* Perform hands-on labs on creating Amazon S3 buckets, setting up AWS Storage Gateway, hosting static websites, and executing data loading procedures.
 
 ### Tasks to Implement This Week:
 
 | Day | Task | Start Date | Completion Date | Resource Links |
 | --- | --- | --- | --- | --- |
-| Mon | - **Study Module 03 theory - Exploring EC2 components**:<br>  * Instance types.<br>  * AMI / Backup / Key Pairs.<br>  * Elastic Block Store (EBS) and Instance Store. | 2026/05/04 | 2026/05/04 | <https://www.youtube.com/watch?v=e7XeKdOVq40> |
-| Tue | - **Continue Module 03 theory - Exploring**:<br>  * User data, Metadata, and EC2 Auto Scaling.<br>  * EFS/FSx, Lightsail, and AWS MGN. | 2026/05/05 | 2026/05/05 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - **Hands-on Lab 13:** Create a backup plan for active resources on AWS such as EBS Volumes, RDS Databases, DynamoDB Tables, or EFS File Systems.<br>  * Learn how to utilize the AWS CLI. | 2026/05/06 | 2026/05/06 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - **Hands-on Lab 24:**<br>  * Create an S3 bucket and launch an EC2 Instance using a pre-configured AWS Storage Gateway AMI.<br>  * Utilize AWS Storage Gateway: create a Storage Gateway, create a File Share, and map the network drive. | 2026/05/07 | 2026/05/07 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | - **Hands-on Lab 57:** Create an S3 bucket and upload data to prepare for static website hosting. | 2026/05/07 | 2026/05/07 | <https://cloudjourney.awsstudygroup.com/> |
-| Sat | - Review Module 03 theoretical concepts and re-watch lab tutorial videos. | 2026/05/08 | 2026/05/08 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Fri | - **Study Module 03 theory on Amazon EC2 core components:**<br>  * EC2 Instance types.<br>  * AMIs, Backup strategies, and Key Pairs.<br>  * Amazon Elastic Block Store (EBS) vs. EC2 Instance Store. | 2026/05/01 | 2026/05/01 | <https://www.youtube.com/watch?v=e7XeKdOVq40> |
+| Sat | - **Continue Module 03 theoretical concepts:**<br>  * EC2 User Data, Instance Metadata, and EC2 Auto Scaling.<br>  * Amazon EFS / Amazon FSx, Amazon Lightsail, and Application Migration Service (MGN). | 2026/05/02 | 2026/05/02 | <https://www.youtube.com/watch?v=hFVYG8WqfU0&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=80> |
+| Sun | - **Hands-on Lab 13:**<br>  * Configure an AWS Backup plan to automate backups for active cloud resources including EBS Volumes, RDS Databases, DynamoDB Tables, and EFS File Systems.<br>  * Practice using the AWS CLI for automated backup management. | 2026/05/03 | 2026/05/03 | <https://000013.awsstudygroup.com/> |
+| Mon | - **Hands-on Lab 24:**<br>  * Create an Amazon S3 bucket and launch an EC2 Instance utilizing a pre-configured AWS Storage Gateway AMI.<br>  * Deploy AWS Storage Gateway: Configure File Gateway, create File Shares, and mount network storage drives. | 2026/05/04 | 2026/05/04 | <https://000024.awsstudygroup.com/> |
+| Tue | - **Hands-on Lab 57:** Create an Amazon S3 bucket, upload website assets, and configure static website hosting. | 2026/05/05 | 2026/05/05 | <https://000057.awsstudygroup.com/> |
+| Wed | - Review Module 03 theoretical concepts and re-watch hands-on lab demonstration videos. | 2026/05/06 | 2026/05/06 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thu | - Preview Module 04 theoretical video lectures. | 2026/05/07 | 2026/05/07 | <https://www.youtube.com/watch?v=hsCfP0IxoaM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=103> |
 
 ### Week 3 Achievements:
 
-* Mastered the core foundational knowledge of Module 03, fully understanding the operational mechanisms, architecture, and classification of components within the AWS compute and storage ecosystem.
-
-* Successfully differentiated between various EC2 Instance types (General Purpose, Compute Optimized, Memory Optimized, etc.) to optimize costs and performance for specific real-world use cases.
-
-* Gained a deep understanding of managing the EC2 lifecycle through AMIs (Amazon Machine Images), securing instances with Key Pairs, and clearly distinguishing use cases between persistent EBS (Elastic Block Store) volumes and high-speed, temporary Instance Stores.
-
-* Mastered advanced EC2 concepts including automated initialization scripts using User Data, system information retrieval via Metadata, and the automated elasticity mechanism provided by EC2 Auto Scaling based on workload demands.
-
-* Acquired a comprehensive overview and differentiated other storage solutions and services, such as shared file systems (EFS/FSx), simplified virtual private servers (Amazon Lightsail), and cloud migration workflows using AWS Application Migration Service (MGN).
+* Mastered core foundational knowledge for Module 03, gaining deep insights into the architecture, operational mechanics, and classification of AWS compute and storage services.
+* Differentiated EC2 Instance Types (General Purpose, Compute Optimized, Memory Optimized, etc.) to optimize workload performance and cost efficiency.
+* Understood EC2 lifecycle management using Amazon Machine Images (AMIs), secure access via Key Pairs, and clear trade-offs between persistent block storage (EBS) and high-speed temporary storage (Instance Store).
+* Mastered advanced EC2 concepts: initial provisioning automation via User Data, system configuration retrieval via Instance Metadata, and automated dynamic elasticity using EC2 Auto Scaling based on real-time demand.
+* Acquired a comprehensive overview and distinguished key storage and migration offerings, including shared file storage (EFS/FSx), lightweight virtual private servers (Amazon Lightsail), and cloud migration processes via AWS Application Migration Service (MGN).

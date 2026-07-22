@@ -1,57 +1,30 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
+date: 2026-06-19
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Create an initial draft of the cloud architecture diagram, collaborate with team members to refine and standardize it, and seek feedback from community members and mentors to identify and fix architectural flaws.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to Implement This Week:
 
+| Day | Task | Start Date | Completion Date | Resource Links |
+| --- | --- | --- | --- | --- |
+| Fri | - Review theoretical concepts from prior modules.<br>- Evaluate, review, and discuss the newly drafted architecture diagram with team members. | 2026/06/19 | 2026/06/19 | <https://aws.amazon.com/blogs/architecture/> |
+| Sat | - Conduct joint technical research, gather documentation, and refine the architecture diagram alongside team members. | 2026/06/20 | 2026/06/20 | <https://aws.amazon.com/blogs/architecture/> |
+| Sun | - Continue refining the architecture diagram and share it in the study group for peer review and expert feedback.<br>- Identify architectural flaws and design issues to implement corrective adjustments. | 2026/06/21 | 2026/06/21 | |
+| Mon | - Research and set up supplemental diagramming tooling to assist with architecture refinement; continue iteratively updating the diagram. | 2026/06/22 | 2026/06/22 | |
+| Tue | - Refresh hands-on skills from previous labs and read additional reference materials to consolidate cloud architecture diagramming best practices. | 2026/06/23 | 2026/06/23 | <https://aws.amazon.com/blogs/architecture/><br><https://www.youtube.com/watch?v=l8isyDe-GwY> |
+| Wed | - Continue team discussions and collaborative iteration on the system architecture diagram. | 2026/06/24 | 2026/06/24 | |
+| Thu | - Research technical literature and continue refining the overall system architecture. | 2026/06/25 | 2026/06/25 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 
 ### Week 10 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully translated the team's project concept into an initial AWS architecture diagram draft, establishing the core architectural layers of the system.
+* Actively gathered, analyzed, and integrated feedback from team discussions and AWS Architecture Blog technical resources to continuously optimize the architecture for security, scalability, and performance.
+* Researched, installed, and applied visual modeling tools to streamline collaborative workflows, ensuring clear, accurate, and intuitive representation of inter-service connections and cloud data flows.
+* Successfully collected constructive feedback from mentors and community peers, successfully identifying current architectural flaws and areas for improvement.

@@ -1,57 +1,31 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
+date: 2026-07-03
 weight: 12
 chapter: false
-pre: " <b> 1.12. </b> "
+pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 12 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deploy all infrastructure and application source code to AWS, finalize the project report, and complete the workshop documentation.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to Implement This Week:
 
+| Day | Task | Start Date | Completion Date | Resource Links |
+| --- | --- | --- | --- | --- |
+| Fri | - Update the `entrypoint.js` script inside the Dockerfile; test S3 storage logic locally before rebuilding and redeploying the container image to Amazon ECR. | 2026/07/03 | 2026/07/03 | |
+| Sat | - Proceed with creating the Amazon ECS cluster and configuring Task Definitions; test task execution logic. | 2026/07/04 | 2026/07/04 | |
+| Sun | - Perform manual testing and discover logic bugs preventing AWS Lambda from reading `test-scripts` stored in S3; research and patch the Docker configuration file. | 2026/07/05 | 2026/07/05 | |
+| Mon | - Troubleshoot missing environment variables; debug manual execution returning a 401 Unauthorized status code with test execution stuck in the `running` state. | 2026/07/06 | 2026/07/06 | |
+| Tue | - Fix logic issue preventing AI integration from reading CloudWatch Log Streams for error summarization; adjust API keys to Free Tier to restore log stream access. | 2026/07/07 | 2026/07/07 | |
+| Wed | - Fix blank body issue in error summary emails sent post-testing; resolve minor frontend state bugs and integrate updates into the workshop documentation. | 2026/07/08 | 2026/07/08 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| Thu | - Perform final end-to-end testing, validate all workshop user flows, and finalize the project report. | 2026/07/09 | 2026/07/09 | <https://www.youtube.com/watch?v=AQlsd0nWdZk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
 
 ### Week 12 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully updated and optimized the `entrypoint.js` script within the Dockerfile, validating S3 storage persistence locally prior to building and pushing the final image version to Amazon ECR.
+* Provisioned and fully configured the Amazon ECS Cluster alongside detailed ECS Task Definitions; resolved Amazon S3 integration issues.
+* Resolved environment variable configuration gaps and 401 authentication errors; fixed execution states being stuck in `running`.
+* Debugged and restored AI & CloudWatch log streams integration, resolving issue where AI services could not consume Amazon CloudWatch Log Streams for error summarization.
+* Optimized email notification mechanisms and Frontend states, fixing email body formatting to ensure complete, intuitive AI error summaries are delivered to users.
