@@ -16,4 +16,3 @@ Blog này giới thiệu cách tích hợp Amazon Bedrock vào công cụ kiểm
 
 ###  [Blog 3 - AWS Transform: Khi AI Tự Động Dọn "Nợ Kỹ Thuật" Cho Cả Ngàn Repository](3.3-Blog3/)
 Blog này giới thiệu tính năng Continuous Modernization trong AWS Transform, một công cụ dùng AI để tự động quét và sửa nợ kỹ thuật trên toàn bộ codebase của tổ chức, tìm hiểu vì sao các công cụ rời rạc (phát hiện dependency lỗi thời, lỗ hổng bảo mật, chất lượng code) khiến doanh nghiệp khó sửa lỗi ở quy mô lớn, cách hệ thống vận hành qua 2 chế độ Continuous Mode (tự động tạo Pull Request khi phát hiện repo lệch chuẩn) và Campaign Mode (dành cho các chiến dịch migrate/nâng cấp quy mô lớn). Bài viết cũng đề cập đến việc tích hợp sâu với AWS Security Agent và hỗ trợ giao thức MCP để cắm trực tiếp vào các coding agent hiện có.
-
