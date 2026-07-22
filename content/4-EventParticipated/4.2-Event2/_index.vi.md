@@ -142,3 +142,11 @@ pre: " <b> 4.2. </b> "
 * Có cơ hội gặp gỡ, trao đổi trực tiếp với các diễn giả giàu kinh nghiệm cùng các bạn học viên có chung định hướng Cloud/DevOps.
 
 ## Một số hình ảnh tham gia sự kiện
+
+![Slide Docker intro - Docker, not a full intro, fun and interactive](/images/4-EventParticipated/4.2-Event2/event2-slide1-docker-intro-anime.jpg?featherlight=false&width=90pc)
+
+![Slide WAF + ML for Cyber Attack Detection - NIDS trên AWS](/images/4-EventParticipated/4.2-Event2/event2-slide2-waf-ml-cyber-attack.png?featherlight=false&width=90pc)
+
+![Slide From IT Helpdesk to Senior Sysadmin - Tran Trung Vinh](/images/4-EventParticipated/4.2-Event2/event2-slide3-it-helpdesk-to-sysadmin.png?featherlight=false&width=90pc)
+
+![Slide Docker - A containerization technology - ITea LAB](/images/4-EventParticipated/4.2-Event2/event2-slide4-docker-containerization-iteab.png?featherlight=false&width=90pc)

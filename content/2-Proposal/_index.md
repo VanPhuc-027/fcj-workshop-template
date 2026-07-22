@@ -7,7 +7,7 @@ pre: " <b> 2. </b> "
 ---
 
 
-# Cloud-Native E2E Testing Platform  
+# Playwright Automated Testing System using Docker on AWS 
 ## An AWS Serverless Solution for Automated End-to-End Testing and Intelligent Report Management.  
 
 ### 1. Executive Summary  

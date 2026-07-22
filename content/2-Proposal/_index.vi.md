@@ -7,7 +7,7 @@ pre: " <b> 2. </b> "
 ---
 
 
-# Cloud-Native E2E Testing Platform  
+# Hệ thống tự động kiểm thử Playwright bằng Docker trên AWS 
 ## Giải pháp AWS Serverless cho kiểm thử End-to-End tự động và quản lý báo cáo thông minh.  
 
 ### 1. Tóm Tắt Dự Án   
